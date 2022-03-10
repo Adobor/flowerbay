@@ -1,0 +1,90 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+/* product style start */
+.main-card{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 25px;
+   width: 100%;
+   height: 480px;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   background-color: blueviolet;
+   border: 5px;
+   padding: 20px 15px 20px 20px;
+   margin-top: 20px;
+
+} 
+.card-container{
+   text-align: center; 
+   border: 20px groove pink;
+   width:380px ;
+ }
+ .title{
+    background-color:blue;
+    border: 10px;
+    height: 103px;
+ }
+ 
+.footer{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+border-top: 20px;
+background-color:darkred;
+color: white;
+width: 100%;
+margin: auto;
+}
+.footbody{
+   padding: 20px;
+}
+
+   h2{
+      font-size: 30px;
+      color:aqua
+   }
+
+button{
+width: 190px;
+padding: 7px;
+border-color: blue;
+box-shadow: inset;
+color:blueviolet;
+font-size: 20px;
+}
+.arcticlefooter img{
+   flex: right;   
+   border-radius: 150px;
+   width: 120px;
+   padding-left: 5%;
+   background-color: yellow;     
+}
+.arcticlefooter{
+display:grid;
+grid-template-columns: 1fr 1fr;
+border-top: 20px;
+background-color: darkgrey;
+padding: 20px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+h1 h3{
+   padding-bottom: 20px ;
+}
+p{
+   padding-bottom: 20px ;
+   font-size: 20px;
+   font-family: sans;
+}
+.arcticlefooter div{
+   justify-content: right;
+   justify-items:right ;
+   margin: auto;
+   padding: 30px 0px; 
+   /* padding-left: 40px; */
+ }
+ 
