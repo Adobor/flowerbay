@@ -2,6 +2,9 @@
    padding: 0;
    margin: 0;
 }
+.main-section{
+overflow:hidden;
+}
 /* product style start */
 .main-card{
    display: grid;
@@ -41,7 +44,7 @@
    width:380px ;
  }
  .card-container img{
-    width:fit-content;
+    width: 380px;
     height: 330px;
  }
  .title{
